@@ -1,0 +1,10 @@
+<div class="contents row">
+  <%= form_with(model: @blog,url: blogs_path,local: true) do %>
+    <h3>
+      投稿するぜメーン
+    </h3>
+    
+    <textarea cols="30" name="text" placeholder="What's upメーン？" rows="10"></textarea>
+    <input type="submit" value="SENT">
+  <% end %>
+</div>
