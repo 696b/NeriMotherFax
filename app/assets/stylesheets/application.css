@@ -23,3 +23,8 @@
  .pagination{
    background-color: black; 
  }
+
+ .col-s12-m6 {
+   float:none;
+   margin:0 auto;
+ }
